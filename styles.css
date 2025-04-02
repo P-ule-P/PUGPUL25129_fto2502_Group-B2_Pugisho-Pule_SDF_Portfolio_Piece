@@ -1,0 +1,398 @@
+body {
+  width: 1440px;
+  min-height: 3473px;
+  border: 1px solid #000000;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.content-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+/* ----------------- Typography --------------------- */
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-align: start;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+/* ----------------- Profile Section --------------------- */
+.container1 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-columns: repeat(auto-fit, max-content(300px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: -2px; /* Adds space between the cards */
+  width: 100%; /* Makes sure it takes the full available width */
+  max-width: 1321.79px; /* Keeps it within a set width */
+  height: 300px; /* Sets a fixed height for the container */
+  margin: 63px auto; /* Centers the container itself */
+  border: 1px solid #000000;
+  border-radius: 29.04px;
+}
+
+.card1 {
+  width: 144px;
+  height: 144px;
+  margin: auto;
+  border: 1px solid #000000;
+  border-radius: 29.04px;
+}
+
+.resume-profile-pic {
+  width: 144px;
+  height: 144px;
+  border-radius: 24px;
+  aspect-ratio: 1 / 1;
+}
+
+.card2 {
+  width: 90%;
+  height: 144px;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 0 3px #dadada;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  text-align: start;
+  margin-bottom: 16px;
+}
+
+.bio {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  width: 100%;
+  line-height: 24px;
+  color: #4a4a4a;
+  text-align: top;
+}
+
+/* ----------------- Capability Section --------------------- */
+.container2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-columns: repeat(auto-fit, max-content(300px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 2px; /* Adds space between the cards */
+  width: 100%; /* Makes sure it takes the full available width */
+  max-width: 1321.79px; /* Keeps it within a set width */
+  height: 350px; /* Sets a fixed height for the container */
+  margin: 63px auto; /* Centers the container itself */
+  border: 1px solid #000000;
+  border-radius: 29.04px;
+}
+
+.card3 {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #000000;
+  border-radius: 29px;
+  background: #ffffff;
+  box-shadow: 0 0 3px #dadada;
+}
+
+.space {
+  margin-right: 50px;
+}
+
+.proficiency-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.proficiency-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.proficiency-name {
+  width: 100px; /* Fixed width for skill names */
+  font-weight: bold;
+}
+
+.proficiency-bar {
+  flex: 1;
+  height: 12px;
+  background: #fff;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+.proficiency-progress {
+  display: block;
+  height: 100%;
+  background: #4a8b70;
+  border-radius: 3px;
+}
+
+.card4 {
+  width: 90%;
+  height: 350px;
+  margin-left: 80px;
+  border: 1px solid #000000;
+  border-radius: 29px;
+  background: #ffffff;
+  box-shadow: 0 0 3px #dadada;
+}
+
+.skill-row {
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  font-weight: 700;
+}
+
+.skill-pill {
+  background-color: #e0e0e0;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+/* ----------------- Project Section --------------------- */
+.container3 {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  width: 1318px;
+  max-width: 1321.79px;
+  height: auto; /* Remove fixed height */
+  min-height: 756px; /* Minimum height */
+  margin: 63px auto;
+  padding: 30px 10px; /* Add inner spacing */
+  border: 1px solid #000000;
+  border-radius: 29.04px;
+  gap: 50px; /* Space between title and cards */
+  background: #ffffff;
+}
+
+.projects-title {
+  text-align: center;
+  margin: 0;
+}
+
+.cards-row {
+  display: grid;
+  grid-template-columns: repeat(4, 280px); /* 4 equal columns */
+  gap: 40px;
+  justify-content: start; /* Center the grid */
+}
+
+.card5,
+.card6,
+.card7,
+.card8 {
+  position: relative;
+  width: 280px;
+  height: 581px;
+  border: 1px solid #000000;
+  border-radius: 29px;
+  background: #ffffff;
+  box-shadow: 0 0 3px #dadada;
+  padding: 7px;
+  color: #000000;
+  font-size: 19.36px;
+  font-weight: 400;
+  background: #e7f0ec;
+}
+
+#card5 {
+  background: #4a8b70;
+  color: #ffffff;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 15px; /* Distance from top */
+  right: 15px; /* Distance from left */
+  font-size: 1.2rem;
+  color: #d76239; /* Ensure it's red */
+}
+
+/* Adjust h3 spacing to avoid overlap */
+.card5 h3,
+.card6 h3,
+.card7 h3,
+.card8 h3 {
+  margin-top: 10px;
+  padding-left: 25px; /* Add space if heart is large */
+}
+
+/* ----------------- Education Section --------------------- */
+.academic-container {
+  display: grid;
+  grid-template-columns: 960px 290px;
+  gap: 90px;
+  justify-content: center; /* Center the grid */
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  width: 994px;
+  max-width: 1321.79px;
+  height: 890px; /* Remove fixed height */
+  border: 1px solid #000000;
+  border-radius: 29.04px;
+  background: #ffffff;
+}
+
+.education-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center; /* Center the grid */
+}
+
+.school-item {
+  display: flex;
+  width: 940px;
+  height: 210px;
+  background: #e7f0ec;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.school-item.bootcamp {
+  background: #4a8b70;
+  color: #ffffff;
+}
+
+/* ----------------- Tools Section --------------------- */
+.tools-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center; /* Center horizontally */
+  width: 280px;
+  max-width: 1321.79px;
+  height: 830px; /* Remove fixed height */
+  padding: 30px 10px; /* Add inner spacing */
+  border: 1px solid #000000;
+  border-radius: 29.04px;
+  background: #ffffff;
+}
+
+.tools-subheader {
+  border-radius: 20px;
+  background: #000000;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.tools-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.language {
+  background: #e7f0ec;
+  width: 184px;
+  border-radius: 14.52px;
+  height: 273.9px;
+}
+
+.design {
+  background: #e7f0ec;
+  width: 184px;
+  border-radius: 14.52px;
+  height: 152px;
+}
+
+.tools {
+  background: #e7f0ec;
+  width: 184px;
+  border-radius: 14.52px;
+  height: 198px;
+  align-items: center;
+}
+
+.logo-row {
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* ----------------- Experience Section --------------------- */
+.experience-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  width: 1316px;
+  max-width: 1321.79px;
+  height: 640px; /* Remove fixed height */
+  margin: 63px auto;
+  border: 1px solid #000000;
+  border-radius: 29.04px;
+  gap: 5px; /* Space between title and cards */
+  background: #ffffff;
+}
+
+.work-info {
+  display: flex;
+  width: 1260px;
+  height: 145px;
+  background: #e7f0ec;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.work-info.clerk {
+  background: #4a8b70;
+  color: #ffffff;
+}
+
+.timeline {
+  position: relative;
+  width: 90px;
+  height: 23px;
+  top: 2px; /* Distance from top */
+  left: 1170px; /* Distance from left */
+  font: Poppins;
+  font-weight: 500;
+  font-size: 14.52px;
+  padding: 2px 2px;
+  text-align: center;
+  color: #ffffff; /* Ensure it's red */
+  background: #d76239;
+  border-radius: 10px;
+}

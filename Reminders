@@ -1,0 +1,8 @@
+Reminders
+Notes to consider and delete before the last commit
+
+- Add Favicon
+- create accounts, yt, li, etc
+- Fix all the units
+- Make sure units match the rubric, especiall 144px to %
+- Make the code Reader friendly by changing containers and boxes to topics and some <div>s to HTML syntax
