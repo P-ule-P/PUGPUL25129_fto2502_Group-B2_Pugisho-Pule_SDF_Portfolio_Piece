@@ -6,6 +6,8 @@
 
 I'm a passionate developer currently mastering HTML, CSS, GitHub, version control, and web development through CodeSpace.
 
+##Link to my video: https://www.loom.com/share/ea203d51c2db491682990be104c2ec95?sid=fb911be6-480c-45d0-aff2-415d10fe9e1d
+
 **Current Focus:**  
 🌱 Learning HTML, CSS and GitHub
 🔭 Building responsive web projects  
