@@ -436,19 +436,19 @@ strong {
 
 .tools-language {
   width: 5.9375em;
-  height: 1.625em;
+  height: 2em;
   padding: 0.3025em 0.9075em;
 }
 
 .tools-design {
   width: 4.4375em;
-  height: 1.625em;
+  height: 2em;
   padding: 0.3025em 0.9075em;
 }
 
 .tools-tools {
   width: 3.6875em;
-  height: 1.625em;
+  height: 2em;
   padding: 0.3025em 0.9075em;
 }
 
@@ -686,4 +686,115 @@ a {
   vertical-align: middle;
   color: #ffffff;
   text-decoration: none;
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 25.125 em;
+    height: 154.25em;
+  }
+
+  .profile-container {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .bio {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  .capability-container {
+    display: flex;
+    flex-direction: column;
+    width: 19.875em;
+    height: auto;
+    gap: 1em;
+    margin: 1em auto;
+  }
+
+  .proficiency-card {
+    height: 11.0625em;
+    padding: 0.5em;
+    width: 19.875em;
+    height: 11.0625em;
+  }
+
+  .proficiency-list {
+    width: 100%;
+    height: auto;
+  }
+
+  .skills-container {
+    width: 19.875em;
+    height: 11.0625em;
+    margin-left: 0;
+    padding: 0.5em;
+  }
+
+  .skills-row {
+    gap: 0.5em;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .project-container {
+    height: 39.5em;
+    padding: 0.5em;
+  }
+
+  .project-row {
+    grid-template-columns: 1fr;
+    gap: 0.5em;
+  }
+
+  .academic-container {
+    height: 28.8125em;
+    grid-template-columns: 1fr;
+  }
+
+  .education-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .tools-container {
+    height: 10.1875em;
+  }
+
+  .tools-column {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .language,
+  .design,
+  .tools {
+    width: 30%;
+    height: 8em;
+    margin: 0.2em 0;
+  }
+
+  .experience-container {
+    height: 30.4375em;
+
+    .work-info {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+
+    .contact-container {
+      height: 5.5625em;
+      flex-direction: row;
+      padding: 0.5em;
+    }
+
+    .contact-statement {
+      font-size: 1em;
+      width: 100%;
+    }
+  }
 }

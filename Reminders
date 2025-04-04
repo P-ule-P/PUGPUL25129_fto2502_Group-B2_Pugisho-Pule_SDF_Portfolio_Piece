@@ -4,11 +4,10 @@ Notes to consider and delete before the last commit
 ~~- Add Favicon~~
 ~~- create accounts, yt, li, etc~~
 ~~- Fix all the units~~  
-~~- Make sure units match the rubric, especiall 144px to %~~
+~~- Make the code Reader friendly by changing containers and boxes to topics and some <div>s to HTML syntax~~
 
-- Make the code Reader friendly by changing containers and boxes to topics and some <div>s to HTML syntax
 - Go to zoom to revisit the meeting one more time
-- Add hover effects to <a> footer
-- Check that all text is aligned with Figma
-- Gaps between icons
-- Go back to proficiency testing and skills
+  ~~- Add hover effects to <a> footer (Ran out of time)~~
+  ~~- Check that all text is aligned with Figma~~
+  ~~- Gaps between icons~~
+  ~~- Go back to proficiency testing and skills~~
